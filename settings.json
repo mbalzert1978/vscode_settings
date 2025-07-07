@@ -1,0 +1,159 @@
+{
+  // Editor Settings
+  "editor.fontFamily": "JetbrainsMono, Consolas, 'Courier New', monospace",
+  "editor.defaultFormatter": "charliermarsh.ruff",
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.snippetSuggestions": "top",
+  "editor.linkedEditing": true,
+  "editor.minimap.autohide": true,
+  "editor.rulers": [
+    80,
+    100,
+    120
+  ],
+  // Auto Docstring Settings
+  "autoDocstring.startOnNewLine": true,
+  // Spell Checker Settings
+  "cSpell.language": "en,de-DE",
+  "cSpell.userWords": [
+    "appsettings",
+    "cpus",
+    "DNSMASQ",
+    "Dont",
+    "dotnet",
+    "flatmap",
+    "healthcheck",
+    "Interactor",
+    "Iorio",
+    "Mediat",
+    "nullable",
+    "piehole",
+    "pihole",
+    "postgres",
+    "postgresql",
+    "pyfunction",
+    "Serilog",
+    "Sqlite",
+    "struct",
+    "valueobject",
+    "valueobjects",
+    "WEBPASSWORD"
+  ],
+  // Remote Settings
+  "remote.autoForwardPortsSource": "hybrid",
+  // Workbench Settings
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.sideBar.location": "right",
+  // Terminal Settings
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+  // Git Settings
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+  "git.ignoreMissingGitWarning": true,
+  "git.openRepositoryInParentFolders": "never",
+  "git.suggestSmartCommit": false,
+  // Debug Settings
+  "debug.allowBreakpointsEverywhere": true,
+  // Security Settings
+  "security.workspace.trust.untrustedFiles": "open",
+  // File Associations
+  "files.associations": {
+    "*.html": "jinja-html"
+  },
+  // Language Specific Settings
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.formatOnSave": true
+  },
+  // C# Settings
+  "csharp.format.enable": false,
+  "omnisharp.useEditorFormattingSettings": false,
+  "razor.format.enable": false,
+  "dotnetAcquisitionExtension.existingDotnetPath": [
+    "$HOME/.dotnet/dotnet"
+  ],
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // JavaScript/TypeScript Settings
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[makefile]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.defaultFormatter": "vscode.markdown-language-features",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.ruff": "explicit"
+    }
+  },
+  // Python Settings
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.importFormat": "relative",
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  // Sourcery Settings
+  "sourcery.codeLens": false,
+  "sourcery.token": "user_Y3OGtsubAkOlSdM_pB3yWifT5UVHdkbmzNazyUbWe6vC_OdGbGyskL0DBZQ",
+  // Ruff Settings
+  "ruff.importStrategy": "useBundled",
+  "ruff.lineLength": 100,
+  // Emmet Settings
+  "emmet.includeLanguages": {
+    "jinja-html": "html"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true
+  },
+  // Rust Settings
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.linkedProjects": [],
+  "[sql]": {
+    "editor.defaultFormatter": null
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": null
+  },
+  "makefile.configureOnOpen": false
+}
